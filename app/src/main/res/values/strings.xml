@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Supermarket</string>
+    <string name="audio_description">Audio devices</string>
+    <string name="men_description">Men\'s Corner</string>
+    <string name="women_description">Women\'s Corner</string>
+    <string name="stationery_description">Station-ery</string>
+    <string name="snacks_description">Snacks &amp; Beverages</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supermarket">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin_page"></activity>
+        <activity
+            android:name=".Carts"
+            android:label="Cart" />
+        <activity
+            android:name=".products"
+            android:label="Product Categories" />
+        <activity
+            android:name=".stationery"
+            android:label="Stationery" />
+        <activity
+            android:name=".snacks"
+            android:label="@string/snacks_description" />
+        <activity
+            android:name=".womens"
+            android:label="@string/women_description" />
+        <activity
+            android:name=".mens"
+            android:label="@string/men_description" />
+        <activity
+            android:name=".Audio_devices"
+            android:label="@string/audio_description" />
+        <activity
+            android:name=".updateuser"
+            android:label="Details Update" />
+        <activity android:name=".updatelogin" />
+        <activity android:name=".UID" />
+        <activity
+            android:name=".NewUser"
+            android:label="New User Registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

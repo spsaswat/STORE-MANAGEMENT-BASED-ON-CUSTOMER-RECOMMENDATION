@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mens">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentStart="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentTop="true"
+                     android:layout_marginStart="26dp"
+                     android:layout_marginLeft="26dp"
+                     android:layout_marginTop="25dp"
+                     android:src="@mipmap/men_1_foreground" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="173dp"
+                    android:src="@mipmap/men_2_foreground" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="324dp"
+                    android:src="@mipmap/men_3_foreground" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="484dp"
+                    android:src="@mipmap/men_4_foreground" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="642dp"
+                    android:src="@mipmap/men_5_foreground" />
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="649dp"
+                    android:text="Engage Perfume"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="679dp"
+                    android:text="120 ml"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="709dp"
+                    android:text="₹139"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:onClick="prom_5"
+                    android:layout_marginStart="265dp"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="683dp"
+                    android:src="@mipmap/cart" />
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="488dp"
+                    android:text="Lotto Shoes"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="517dp"
+                    android:text="Black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="548dp"
+                    android:text="₹848"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:onClick="prom_4"
+                    android:layout_marginStart="265dp"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="522dp"
+                    android:src="@mipmap/cart" />
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="331dp"
+                    android:text="WildHorn® Wallet"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="360dp"
+                    android:text="Leather"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="391dp"
+                    android:text="₹498"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="265dp"
+                    android:layout_marginLeft="265dp"
+                    android:onClick="prom_3"
+                    android:layout_marginTop="365dp"
+                    android:src="@mipmap/cart" />
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="180dp"
+                    android:text="ETHICS Clogs"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="209dp"
+                    android:text="Rubber"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="240dp"
+                    android:text="₹167"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="265dp"
+                    android:layout_marginLeft="265dp"
+                    android:onClick="prom_2"
+                    android:layout_marginTop="214dp"
+                    android:src="@mipmap/cart" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="32dp"
+                    android:text="NIVEA MEN, 250 ml"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="61dp"
+                    android:text="Shampoo"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginLeft="146dp"
+                    android:layout_marginTop="92dp"
+                    android:text="₹123"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="265dp"
+                    android:layout_marginLeft="265dp"
+                    android:onClick="prom_1"
+                    android:layout_marginTop="66dp"
+                    android:src="@mipmap/cart" />
+
+
+
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="223dp"
+                    android:layout_marginLeft="223dp"
+                    android:inputType="number"
+                    android:layout_marginTop="83dp"
+                    android:ems="11"
+                    android:text="1" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="223dp"
+                    android:layout_marginLeft="223dp"
+                    android:layout_marginTop="233dp"
+                    android:ems="11"
+                    android:inputType="number"
+                    android:text="1" />
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="223dp"
+                    android:layout_marginLeft="223dp"
+                    android:layout_marginTop="385dp"
+                    android:ems="11"
+                    android:inputType="number"
+                    android:text="1" />
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="223dp"
+                    android:layout_marginLeft="223dp"
+                    android:layout_marginTop="542dp"
+                    android:ems="11"
+                    android:inputType="number"
+                    android:text="1" />
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="223dp"
+                    android:layout_marginLeft="223dp"
+                    android:layout_marginTop="703dp"
+                    android:ems="11"
+                    android:inputType="number"
+                    android:text="1" />
+
+
+            </RelativeLayout>
+</ScrollView>
+</LinearLayout>
