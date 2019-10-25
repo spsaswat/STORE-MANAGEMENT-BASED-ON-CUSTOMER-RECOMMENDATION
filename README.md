@@ -5,5 +5,8 @@ An app for supermarkets that lets their customers see their stock, reserve items
 Supermarket_app/app/src/main/java/com/example/supermarket/
 this is the location where you can find java codes.
 
+Supermarket_app/app/src/main/res/layout/
+this is the location where you can find xml codes.
+
 below is the link that will show funtionality of the app
 https://twitter.com/i/status/1183807431278649344
