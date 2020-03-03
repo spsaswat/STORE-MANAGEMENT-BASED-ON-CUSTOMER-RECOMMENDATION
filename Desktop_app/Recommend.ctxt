@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Recommend
+comment1.params=x\ xx
+comment1.target=Recommend(double,\ java.lang.String)
+comment2.params=
+comment2.target=void\ Main()
+comment3.params=data
+comment3.target=Recommend(java.util.Map)
+comment4.params=user
+comment4.target=java.util.Map\ predict(java.util.Map)
+comment4.text=\r\n\ Based\ on\ existing\ data,\ and\ using\ weights,\ \r\n\ try\ to\ predict\ all\ missing\ ratings.\ \r\n\ The\ trick\ to\ make\ this\ more\ scalable\ is\ to\ consider\ \r\n\ only\ mDiffMatrix\ entries\ having\ a\ large\ \ (>1)\ mFreqMatrix\ \r\n\ entry.\ \r\n\ \r\n\ It\ will\ output\ the\ prediction\ 0\ when\ no\ prediction\ is\ possible.\ \r\n
+comment5.params=user
+comment5.target=void\ print(java.util.Map)
+comment6.params=
+comment6.target=void\ buildDiffMatrix()
+numComments=7
