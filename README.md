@@ -1,4 +1,4 @@
-# Supermarket_app
+# STORE MANAGEMENT BASED ON CUSTOMER RECOMMENDATION(Android and Desktop app)
 An app for supermarkets that lets their customers see their stock, reserve items by adding items to cart. It also allows to get a cost estimation of your next shopping in advance.
 
 
