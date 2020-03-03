@@ -1,5 +1,10 @@
 # STORE MANAGEMENT BASED ON CUSTOMER RECOMMENDATION(Android and Desktop app)
-An app for supermarkets that lets their customers see their stock, reserve items by adding items to cart. It also allows to get a cost estimation of your next shopping in advance.
+We have created a store management system that is as efficient as possible. It would include functions from 3 perspectives:
+-the consumer’s perspective: here we have an android application made in Android Studio that consumers can download on their phones and use to check product inventory and get corresponding bill amount
+-the cashier’s perspective: here we have a Java Files + MySQL database where the cashier can generate the bill for consumer’s purchase with the stock being affected accordingly
+-the manager’s perspective: Here we have the MySQL database, where the manager will be able to view inventory, modify it and also get a recommendation for adding new items in the proper amount
+The entire software is coded in JAVA with a file-based database, MySQL and SQLite.
+
 
 
 Supermarket_app/app/src/main/java/com/example/supermarket/
